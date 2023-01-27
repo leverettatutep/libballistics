@@ -72,3 +72,9 @@ dkms.conf
 # Executables
 .idea/
 cmake-build-debug/
+.vs
+client-MicrosoftVS
+*.bak
+test/*
+out/*
+
