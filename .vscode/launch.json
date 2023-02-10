@@ -28,57 +28,6 @@
                     "ignoreFailures": true
                 }
             ]
-        },
-
-        {
-            "name": "(gdb) Bash on Windows Launch",
-            "type": "cppdbg",
-            "request": "launch",
-            "program": "D:/Dropbox/Projects/DigitalEngineering/Bombs/libballistics/build/CMakeFiles/3.25.2/CompilerIdCXX/a.exe",
-            "args": [],
-            "stopAtEntry": false,
-            "cwd": "${fileDirname}",
-            "environment": [],
-            "externalConsole": false,
-            "pipeTransport": {
-                "debuggerPath": "/usr/bin/gdb",
-                "pipeProgram": "${env:windir}\\system32\\bash.exe",
-                "pipeArgs": ["-c"],
-                "pipeCwd": ""
-            },
-            "setupCommands": [
-                {
-                    "description": "Enable pretty-printing for gdb",
-                    "text": "-enable-pretty-printing",
-                    "ignoreFailures": true
-                },
-                {
-                    "description": "Set Disassembly Flavor to Intel",
-                    "text": "-gdb-set disassembly-flavor intel",
-                    "ignoreFailures": true
-                }
-            ]
-        },
-        {
-            "name": "(gdb) Attach",
-            "type": "cppdbg",
-            "request": "attach",
-            "program": "D:/Dropbox/Projects/DigitalEngineering/Bombs/libballistics/build/CMakeFiles/3.25.2/CompilerIdCXX/a.exe",
-            "MIMode": "gdb",
-            "miDebuggerPath": "",
-            "setupCommands": [
-                {
-                    "description": "Enable pretty-printing for gdb",
-                    "text": "-enable-pretty-printing",
-                    "ignoreFailures": true
-                },
-                {
-                    "description": "Set Disassembly Flavor to Intel",
-                    "text": "-gdb-set disassembly-flavor intel",
-                    "ignoreFailures": true
-                }
-            ]
         }
-
     ]
 }
