@@ -18,5 +18,5 @@ all: $(objects)
 
 .PHONY: clean
 clean:
-	rm *.o *.exe
+	rm *.o *.exe *.bak
 

@@ -1,0 +1,9 @@
+{
+    "makefile.launchConfigurations": [
+        {
+            "cwd": "d:\\Dropbox\\Projects\\DigitalEngineering\\Bombs\\libballistics",
+            "binaryPath": "d:\\Dropbox\\Projects\\DigitalEngineering\\Bombs\\libballistics\\example.exe",
+            "binaryArgs": []
+        }
+    ]
+}
